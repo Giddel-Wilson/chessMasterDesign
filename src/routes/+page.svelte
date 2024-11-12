@@ -162,7 +162,7 @@
 				<div class="grid grid-cols-2 gap-4">
 					{#each [{ year: 2006, type: 'GOLD' }, { year: 2006, type: 'GOLD' }, { year: 2012, type: 'GOLD' }, { year: 2008, type: 'BRONZE' }] as medal}
 						<div
-							class="flex h-24 w-24 flex-col items-center justify-center rounded-full border border-black sm:h-32 sm:w-32"
+							class="flex h-24 w-24 flex-col items-center justify-center rounded-full border border-black sm:h-32 sm:w-32 bg-white"
 						>
 							<div class="text-3xl sm:text-4xl">1</div>
 							<div class="text-sm font-bold sm:text-base">{medal.type}</div>
